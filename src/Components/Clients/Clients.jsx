@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import style from "./Clients.module.css";
-import FetchAll from "../../hooks/fetchall";
+import FetchAll from "../../hooks/fetchAll";
 const Clients = () => {
   const clients = FetchAll("https://domora-fx0w.onrender.com/Clients");
   return (
