@@ -1,0 +1,255 @@
+@media (max-width: 460px) {
+  header {
+    max-width: 100%;
+    height: 65px;
+    background-color: #173f35;
+  }
+  .mobilehead {
+    width: 100%;
+    height: 100%;
+    padding: 0px 12px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  .menu {
+    width: 35%;
+    max-width: 35%;
+    min-height: 100vh;
+    padding: 12px;
+    background-color: #173f35;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: 3000ms;
+  }
+  button {
+    position: absolute;
+    border: none;
+    top: 10px;
+    left: 10px;
+  }
+  .menu li {
+    width: 100%;
+  }
+  .menu li a {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    font-family: DOMORAFont, sans-serif;
+    color: #fff;
+    text-decoration: none;
+  }
+  .logo {
+    max-width: 40%;
+    height: 100%;
+  }
+  .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .login {
+    max-width: 14%;
+    padding: 8px 18px;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .login a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 0.9rem;
+    font-family: DOMORAFont, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+  }
+  .head {
+    display: none;
+  }
+}
+@media (min-width: 461px) and (max-width: 1200px) {
+  header {
+    max-width: 100%;
+    height: 65px;
+    background-color: #173f35;
+  }
+  .mobilehead {
+    width: 100%;
+    height: 100%;
+    padding: 0px 12px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  .menu {
+    width: 25%;
+    max-width: 25%;
+    min-height: 100vh;
+    padding: 12px;
+    background-color: #173f35;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: 3000ms;
+  }
+  button {
+    position: absolute;
+    border: none;
+    top: 10px;
+    left: 10px;
+  }
+  .menu li {
+    width: 100%;
+  }
+  .menu li a {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    font-family: DOMORAFont, sans-serif;
+    color: #fff;
+    text-decoration: none;
+  }
+  .logo {
+    max-width: 40%;
+    height: 100%;
+  }
+  .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .login {
+    max-width: 14%;
+    padding: 8px 18px;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .login a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 0.9rem;
+    font-family: DOMORAFont, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+  }
+  .head {
+    display: none;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  header {
+    max-width: 100%;
+    height: 85px;
+    background-color: #173f35;
+  }
+  .head {
+    width: 100%;
+    height: 100%;
+    padding: 0px 28px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    max-width: 25%;
+    height: 100%;
+  }
+  .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .menu {
+    max-width: 60%;
+  }
+  .menu ul {
+    max-width: 100%;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+  }
+  li {
+    max-width: 30%;
+  }
+  li a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-family: DOMORAFont, sans-serif;
+    font-weight: 500;
+  }
+  li a:hover {
+    color: #d4b483;
+    text-decoration: underline;
+  }
+  .login {
+    max-width: 15%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+  }
+  .login a {
+    background-color: #d4b483;
+    padding: 8px 12px;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    font-family: DOMORAFont, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+  }
+  .mobilehead {
+    display: none;
+  }
+}

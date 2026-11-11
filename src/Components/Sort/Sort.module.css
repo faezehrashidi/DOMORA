@@ -1,0 +1,190 @@
+@media (max-width: 460px) {
+  .sort {
+    width: 100%;
+    padding: 12px 4px;
+    background-color: #eae8de;
+  }
+  .head {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 4px;
+  }
+  .head h2 {
+    font-size: 1.1rem;
+    color: #000;
+    font-family: DOMORAFont, sans-serif;
+    font-weight: 500;
+    margin-bottom: 0px;
+  }
+  .chart {
+    width: 100%;
+    max-width: 100%;
+    padding: 8px 4px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 4px;
+  }
+  .title {
+    position: relative;
+  }
+  .title img {
+    width: 100%;
+    height: 90%;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  .title a {
+    position: absolute;
+    z-index: 9999;
+    bottom: 20px;
+    right: 10px;
+    font-family: DOMORAFont, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 2px 6px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 6px;
+    font-size: 0.7rem;
+    color: #fff;
+  }
+  .title a:hover {
+    text-decoration: underline;
+    transition: 2000ms;
+    background-color: #fff;
+    color: #173f35;
+  }
+}
+@media (min-width: 461px) and (max-width: 1200px) {
+  .sort {
+    width: 100%;
+    padding: 12px 4px;
+    background-color: #eae8de;
+  }
+  .head {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 4px;
+  }
+  .head h2 {
+    font-size: 1.1rem;
+    color: #000;
+    font-family: DOMORAFont, sans-serif;
+    font-weight: 500;
+    margin-bottom: 0px;
+  }
+  .chart {
+    width: 100%;
+    max-width: 100%;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 8px;
+  }
+  .title {
+    position: relative;
+  }
+  .title img {
+    width: 100%;
+    height: 90%;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  .title a {
+    position: absolute;
+    z-index: 9999;
+    bottom: 25px;
+    right: 10px;
+    font-family: DOMORAFont, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 6px 12px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 6px;
+    font-size: 0.9rem;
+    color: #fff;
+  }
+  .title a:hover {
+    text-decoration: underline;
+    transition: 2000ms;
+    background-color: #fff;
+    color: #173f35;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .sort {
+    width: 100%;
+    padding: 22px 20px 4px;
+    background-color: #eae8de;
+  }
+  .head {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 4px;
+  }
+  .head h2 {
+    font-size: 1.4rem;
+    color: #000;
+    font-family: DOMORAFont, sans-serif;
+    font-weight: 500;
+    margin-bottom: 0px;
+  }
+  .chart {
+    width: 100%;
+    max-width: 100%;
+    padding: 22px 5px 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .title {
+    position: relative;
+  }
+  .title img {
+    width: 100%;
+    height: 90%;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  .title a {
+    position: absolute;
+    z-index: 9999;
+    bottom: 10px;
+    right: 10px;
+    font-family: DOMORAFont, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 8px 14px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 6px;
+    font-size: 1.1rem;
+    color: #fff;
+  }
+  .title a:hover {
+    text-decoration: underline;
+    transition: 2000ms;
+    background-color: #fff;
+    color: #173f35;
+  }
+}

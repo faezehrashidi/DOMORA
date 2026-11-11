@@ -1,0 +1,503 @@
+@media (max-width: 460px) {
+  footer {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background-color: #173f35;
+    box-sizing: border-box;
+  }
+  .footertable {
+    width: 90%;
+    padding: 35px 0 25px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: center;
+    align-items: start;
+    column-gap: 20px;
+    row-gap: 30px;
+    box-sizing: border-box;
+  }
+  .QuickLinks {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .QuickLinks h5,
+  .Properties h5,
+  .ContactUs h5 {
+    font-size: 0.85rem;
+    font-family: DOMORAFont, sans-serif;
+    color: #d9ad62;
+    margin: 0;
+  }
+  .QuickLinks ul,
+  .Properties ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .QuickLinks a,
+  .Properties a {
+    font-size: 0.75rem;
+    font-family: DOMORAFont, sans-serif;
+    color: #f5f3eb;
+    text-decoration: none;
+  }
+  .Properties {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .Properties li {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .ContactUs {
+    width: 100%;
+    grid-column: 1 / -1;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .ContactUs ul,
+  .ContactUs li {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .ContactUs li {
+    display: flex;
+    flex-flow: column;
+    gap: 12px;
+  }
+  .email,
+  .phone,
+  .Address {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 4px;
+  }
+  .email span,
+  .phone span,
+  .Address span,
+  .email a,
+  .phone a,
+  .Address a {
+    font-size: 0.75rem;
+    font-family: DOMORAFont, sans-serif;
+    overflow-wrap: anywhere;
+  }
+  .email span,
+  .phone span,
+  .Address span {
+    color: #f5f3eb;
+  }
+  .email a,
+  .phone a,
+  .Address a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .Follow {
+    width: 100%;
+    grid-column: 1 / -1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  .Follow h5 {
+    font-size: 0.85rem;
+    color: #d9ad62;
+    font-family: DOMORAFont, sans-serif;
+    margin: 0;
+  }
+  .logo {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .Follow svg {
+    width: 26px;
+    height: 26px;
+  }
+  footer > span {
+    display: block;
+    width: 90%;
+    padding: 15px 0;
+    margin: 0 auto;
+    border-top: 2px solid #d9ad62;
+    color: #c5c9b9;
+    text-align: center;
+    font-size: 0.7rem;
+    font-family: DOMORAFont, sans-serif;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 461px) and (max-width: 1200px) {
+  footer {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background-color: #173f35;
+    box-sizing: border-box;
+  }
+  .footertable {
+    width: 90%;
+    padding: 80px 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .QuickLinks {
+    width: 20%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .QuickLinks h5 {
+    font-size: 1rem;
+    font-family: DOMORAFont, sans-serif;
+    color: #d9ad62;
+    margin: 0;
+  }
+  .QuickLinks ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 7px;
+  }
+  .QuickLinks a {
+    font-size: 0.8rem;
+    font-family: DOMORAFont, sans-serif;
+    color: #f5f3eb;
+    text-decoration: none;
+  }
+  .Properties {
+    width: 20%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .Properties h5 {
+    font-size: 1rem;
+    font-family: DOMORAFont, sans-serif;
+    color: #d9ad62;
+    margin: 0;
+  }
+  .Properties ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 7px;
+  }
+  .Properties li {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 7px;
+  }
+  .Properties a {
+    font-size: 0.8rem;
+    font-family: DOMORAFont, sans-serif;
+    color: #f5f3eb;
+    text-decoration: none;
+  }
+  .ContactUs {
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .ContactUs h5 {
+    font-size: 1rem;
+    font-family: DOMORAFont, sans-serif;
+    color: #d9ad62;
+    margin: 0;
+  }
+  .ContactUs ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .ContactUs li {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 8px;
+  }
+  .email,
+  .phone,
+  .Address {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .email span,
+  .phone span,
+  .Address span {
+    font-size: 0.8rem;
+    font-family: DOMORAFont, sans-serif;
+    color: #f5f3eb;
+  }
+
+  .email a,
+  .phone a,
+  .Address a {
+    font-size: 0.8rem;
+    font-family: DOMORAFont, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+  }
+  .Follow {
+    width: 20%;
+    align-self: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .Follow h5 {
+    font-size: 1rem;
+    color: #d9ad62;
+    font-family: DOMORAFont, sans-serif;
+    margin: 0;
+  }
+  .logo {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+  }
+  footer > span {
+    display: block;
+    width: 60%;
+    padding: 12px 0;
+    margin: 0 auto;
+    border-top: 2px solid #d9ad62;
+    color: #c5c9b9;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: DOMORAFont, sans-serif;
+    box-sizing: border-box;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  footer {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background-color: #173f35;
+    box-sizing: border-box;
+  }
+  .footertable {
+    width: 90%;
+    padding: 80px 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .QuickLinks {
+    width: 25%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .QuickLinks h5 {
+    font-size: 1.1rem;
+    font-family: DOMORAFont, sans-serif;
+    color: #d9ad62;
+    margin: 0;
+  }
+  .QuickLinks ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 7px;
+  }
+  .QuickLinks a {
+    font-size: 1rem;
+    font-family: DOMORAFont, sans-serif;
+    color: #f5f3eb;
+    text-decoration: none;
+  }
+  .Properties {
+    width: 20%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .Properties h5 {
+    font-size: 1.1rem;
+    font-family: DOMORAFont, sans-serif;
+    color: #d9ad62;
+    margin: 0;
+  }
+  .Properties ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 7px;
+  }
+  .Properties li {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 7px;
+  }
+  .Properties a {
+    font-size: 1rem;
+    font-family: DOMORAFont, sans-serif;
+    color: #f5f3eb;
+    text-decoration: none;
+  }
+  .ContactUs {
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .ContactUs h5 {
+    font-size: 1.1rem;
+    font-family: DOMORAFont, sans-serif;
+    color: #d9ad62;
+    margin: 0;
+  }
+  .ContactUs ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .ContactUs li {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 8px;
+  }
+  .email,
+  .phone,
+  .Address {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .email span,
+  .phone span,
+  .Address span {
+    font-size: 1rem;
+    font-family: DOMORAFont, sans-serif;
+    color: #f5f3eb;
+  }
+
+  .email a,
+  .phone a,
+  .Address a {
+    font-size: 1rem;
+    font-family: DOMORAFont, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+  }
+  .Follow {
+    width: 20%;
+    align-self: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .Follow h5 {
+    font-size: 1.1rem;
+    color: #d9ad62;
+    font-family: DOMORAFont, sans-serif;
+    margin: 0;
+  }
+  .logo {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+  }
+  footer > span {
+    display: block;
+    width: 60%;
+    padding: 12px 0;
+    margin: 0 auto;
+    border-top: 2px solid #d9ad62;
+    color: #c5c9b9;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: DOMORAFont, sans-serif;
+    box-sizing: border-box;
+  }
+}

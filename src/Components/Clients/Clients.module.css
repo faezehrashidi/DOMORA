@@ -1,0 +1,203 @@
+@media (max-width: 460px) {
+  .clients {
+    width: 85%;
+    max-width: 85%;
+    height: 500px;
+    height: auto;
+    margin: 30px auto;
+    background-color: #eae8de;
+  }
+  .head {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: start;
+  }
+  .head h2 {
+    font-size: 1rem;
+    line-height: 35px;
+    margin-bottom: 0px;
+    font-family: DOMORAFont, sans-serif;
+  }
+  .card {
+    width: 80%;
+    height: 300px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .card:hover {
+    border: 1px solid #989797;
+    transition: 700ms;
+    box-shadow: 8px 8px 8px #ffff;
+  }
+  .clients .card img {
+    display: block;
+    width: 55%;
+    height: 25%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  .card p {
+    font-size: 0.6rem;
+    font-family: DOMORAFont, sans-serif;
+  }
+  .info {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .info h2 {
+    font-size: 0.7rem;
+    font-family: DOMORAFont, sans-serif;
+  }
+  .info span {
+    font-size: 0.5rem;
+    font-family: DOMORAFont, sans-serif;
+  }
+}
+@media (min-width: 461px) and (max-width: 1200px) {
+  .clients {
+    width: 80%;
+    max-width: 80%;
+    height: 500px;
+    height: auto;
+    margin: 30px auto;
+    background-color: #eae8de;
+  }
+  .head {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: start;
+  }
+  .head h2 {
+    font-size: 1.2rem;
+    line-height: 35px;
+    margin-bottom: 0px;
+    font-family: DOMORAFont, sans-serif;
+  }
+  .card {
+    width: 80%;
+    height: 380px;
+    padding: 5px 12px;
+    border-radius: 12px;
+    background-color: #fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .card:hover {
+    border: 1px solid #989797;
+    transition: 700ms;
+    box-shadow: 8px 8px 8px #ffff;
+  }
+  .clients .card img {
+    display: block;
+    width: 55%;
+    height: 25%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  .card p {
+    width: 80%;
+    font-size: 0.7rem;
+    font-family: DOMORAFont, sans-serif;
+  }
+  .info {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .info h2 {
+    font-size: 0.7rem;
+    font-family: DOMORAFont, sans-serif;
+  }
+  .info span {
+    font-size: 0.7rem;
+    font-family: DOMORAFont, sans-serif;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .clients {
+    width: 80%;
+    max-width: 80%;
+    height: 500px;
+    height: auto;
+    margin: 30px auto;
+    background-color: #eae8de;
+  }
+  .head {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: start;
+  }
+  .head h2 {
+    font-size: 1.4rem;
+    line-height: 35px;
+    margin-bottom: 0px;
+    font-family: DOMORAFont, sans-serif;
+  }
+  .card {
+    width: 80%;
+    height: 450px;
+    padding: 5px 15px;
+    border-radius: 7%;
+    background-color: #fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .card:hover {
+    border: 1px solid #989797;
+    transition: 700ms;
+    box-shadow: 8px 8px 8px #ffff;
+  }
+  .clients .card img {
+    display: block;
+    width: 55%;
+    height: 35%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  .card p {
+    width: 80%;
+    font-size: 0.9rem;
+    font-family: DOMORAFont, sans-serif;
+  }
+  .info {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .info h2 {
+    font-size: 0.9rem;
+    font-family: DOMORAFont, sans-serif;
+  }
+  .info span {
+    font-size: 0.8rem;
+    font-family: DOMORAFont, sans-serif;
+  }
+}

@@ -1,0 +1,303 @@
+@media (max-width: 460px) {
+  .featured {
+    width: 98%;
+    max-width: 98%;
+    margin: 10px auto;
+    height: auto;
+    background-color: #eae8de;
+    padding: 25px 15px;
+    box-sizing: border-box;
+    border-radius: 12px;
+  }
+  .head {
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+  }
+  .head h2 {
+    font-size: 1.1rem;
+    line-height: 35px;
+    margin-bottom: 0;
+    font-family: DOMORAFont, sans-serif;
+  }
+  .card {
+    width: 100%;
+    height: 380px;
+    min-height: 380px;
+    padding: 12px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #d6d2c8;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(23, 63, 53, 0.05);
+    overflow: hidden;
+  }
+  .featured .card img {
+    width: 90%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .content {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .content h3 {
+    font-size: 0.8rem;
+    font-family: DOMORAFont, sans-serif;
+    font-weight: 600;
+    margin: 0;
+    color: #173f35;
+  }
+  .content p {
+    width: 100%;
+    font-size: 0.6rem;
+    font-family: DOMORAFont, sans-serif;
+    margin: 0;
+    text-align: center;
+    color: #173f35;
+  }
+
+  .content h4 {
+    font-size: 1rem;
+    font-family: DOMORAFont, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    color: #173f35;
+  }
+
+  .info {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+
+  .info span {
+    font-size: 0.6rem;
+    font-family: DOMORAFont, sans-serif;
+    margin: 0;
+    color: #173f35;
+  }
+}
+@media (min-width: 461px) and (max-width: 1200px) {
+  .featured {
+    width: 98%;
+    max-width: 98%;
+    margin: 10px auto;
+    height: auto;
+    background-color: #eae8de;
+    padding: 25px 15px;
+    box-sizing: border-box;
+    border-radius: 12px;
+  }
+
+  .head {
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .head h2 {
+    font-size: 1.1rem;
+    line-height: 35px;
+    margin-bottom: 0;
+    font-family: DOMORAFont, sans-serif;
+  }
+
+  .card {
+    width: 100%;
+    min-height: 450px;
+    height: 450px;
+    padding: 12px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #d6d2c8;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(23, 63, 53, 0.05);
+    overflow: hidden;
+  }
+
+  .featured .card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .content {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .content h3 {
+    font-size: 0.8rem;
+    font-family: DOMORAFont, sans-serif;
+    font-weight: 600;
+    margin: 0;
+    color: #173f35;
+  }
+
+  .content p {
+    width: 100%;
+    font-size: 0.7rem;
+    font-family: DOMORAFont, sans-serif;
+    margin: 0;
+    text-align: center;
+    color: #173f35;
+  }
+
+  .content h4 {
+    font-size: 1rem;
+    font-family: DOMORAFont, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    color: #173f35;
+  }
+
+  .info {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+
+  .info span {
+    font-size: 0.7rem;
+    font-family: DOMORAFont, sans-serif;
+    margin: 0;
+    color: #173f35;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .featured {
+    width: 98%;
+    max-width: 98%;
+    margin: 10px auto;
+    height: auto;
+    background-color: #eae8de;
+    padding: 25px 15px;
+    box-sizing: border-box;
+    border-radius: 12px;
+  }
+
+  .head {
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .head h2 {
+    font-size: 1.4rem;
+    line-height: 35px;
+    margin-bottom: 0;
+    font-family: DOMORAFont, sans-serif;
+  }
+
+  .card {
+    width: 100%;
+    height: 450px;
+    min-height: 450px;
+    padding: 12px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+    background-color: #ffffff;
+    border: 1px solid #d6d2c8;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(23, 63, 53, 0.05);
+    overflow: hidden;
+  }
+
+  .featured .card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .content {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .content h3 {
+    font-size: 1rem;
+    font-family: DOMORAFont, sans-serif;
+    font-weight: 600;
+    margin: 0;
+    color: #173f35;
+  }
+
+  .content p {
+    width: 100%;
+    font-size: 0.8rem;
+    font-family: DOMORAFont, sans-serif;
+    margin: 0;
+    text-align: center;
+    color: #173f35;
+  }
+
+  .content h4 {
+    font-size: 1.1rem;
+    font-family: DOMORAFont, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    color: #173f35;
+  }
+
+  .info {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+
+  .info span {
+    font-size: 0.8rem;
+    font-family: DOMORAFont, sans-serif;
+    margin: 0;
+    color: #173f35;
+  }
+}
