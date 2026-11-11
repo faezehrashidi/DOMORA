@@ -4,7 +4,7 @@ import "swiper/css/pagination";
 import style from "./Clients.module.css";
 import FetchAll from "../../hooks/fetchall";
 const Clients = () => {
-  const clients = FetchAll("http://localhost:3000/Clients");
+  const clients = FetchAll("https://domora-fx0w.onrender.com/Clients");
   return (
     <>
       <section className={style.clients}>

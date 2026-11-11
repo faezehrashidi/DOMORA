@@ -4,7 +4,7 @@ import "swiper/css/pagination";
 import style from "./Featured.module.css";
 import FetchAll from "../../hooks/fetchall";
 const Featured = () => {
-  const featured = FetchAll("http://localhost:3000/Featured");
+  const featured = FetchAll("https://domora-fx0w.onrender.com/Featured");
   return (
     <>
       <section className={style.featured}>
