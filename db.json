@@ -2,7 +2,7 @@
   "Clients": [
     {
       "id": "1",
-      "src": "./src/assets/Clients/Clients1.png",
+      "src": "/DOMORA/Image/Clients/Clients1.png",
       "alt": "Clients1",
       "des": "DOMORA helped me find the perfect villa for my family. Their professional guidance and attention to detail made the entire experience easy and enjoyable.",
       "name": "Sarah Mitchell",
@@ -10,7 +10,7 @@
     },
     {
       "id": "2",
-      "src": "./src/assets/Clients/Clients2.png",
+      "src": "/DOMORA/Image/Clients/Clients2.png",
       "alt": "Clients2",
       "des": "The service was excellent from start to finish. I found a beautiful villa that matched my expectations. Highly recommended!",
       "name": "James Anderson",
@@ -18,7 +18,7 @@
     },
     {
       "id": "3",
-      "src": "./src/assets/Clients/Clients3.png",
+      "src": "/DOMORA/Image/Clients/Clients3.png",
       "alt": "Clients3",
       "des": "I was looking for a modern apartment in a great location. DOMORA understood exactly what I needed and made the process smooth",
       "name": "Emily Carter",
@@ -27,7 +27,7 @@
 
     {
       "id": "4",
-      "src": "./src/assets/Clients/Clients4.png",
+      "src": "/DOMORA/Image/Clients/Clients4.png",
       "alt": "Clients4",
       "des": "DOMORA made purchasing my penthouse a straightforward experience. Their expertise and transparent communication made all the difference.",
       "name": "Daniel Wilson",
@@ -35,7 +35,7 @@
     },
     {
       "id": "5",
-      "src": "./src/assets/Clients/Clients5.png",
+      "src": "/DOMORA/Image/Clients/Clients5.png",
       "alt": "Clients5",
       "des": "Finding our new family home was an important decision. The DOMORA team supported us throughout the journey with patience and professionalism.",
       "name": "Olivia Bennett",
@@ -44,7 +44,8 @@
   ],
   "Featured": [
     {
-      "src": "./src/assets/Featured/Featured1.png",
+      "id": "1",
+      "src": "/DOMORA/images/Featured/Featured1.png",
       "alt": "Featured1",
       "title": "Modern Family House",
       "type": "Detached House",
@@ -54,7 +55,8 @@
       "description": "A beautiful modern family home with elegant architecture, spacious interiors and a landscaped garden."
     },
     {
-      "src": "./src/assets/Featured/Featured2.png",
+      "id": "2",
+      "src": "/DOMORA/images/Featured/Featured2.png",
       "alt": "Featured2",
       "title": "Classic Garden House",
       "type": "Detached House",
@@ -64,7 +66,8 @@
       "description": "A charming independent house featuring classic architecture, a beautiful garden."
     },
     {
-      "src": "./src/assets/Featured/Featured3.png",
+      "id": "3",
+      "src": "/DOMORA/images/Featured/Featured3.png",
       "alt": "Featured3",
       "title": "Contemporary Residence",
       "type": "Detached House",
@@ -74,7 +77,8 @@
       "description": "A stylish contemporary home with modern finishes, large windows and a peaceful outdoor space."
     },
     {
-      "src": "./src/assets/Featured/Featured4.png",
+      "id": "4",
+      "src": "/DOMORA/images/Featured/Featured4.png",
       "alt": "Featured4",
       "title": "Skyline Luxury Penthouse",
       "type": "Penthouse",
@@ -84,6 +88,7 @@
       "description": "An exclusive penthouse offering panoramic city views, floor-to-ceiling window."
     },
     {
+      "id": "5",
       "src": "./src/assets/Featured/Featured5.png",
       "alt": "Featured5",
       "title": "Urban Heights Penthouse",
@@ -94,7 +99,8 @@
       "description": "A sophisticated penthouse featuring a private terrace, contemporary design and stunning skyline views."
     },
     {
-      "src": "./src/assets/Featured/Featured6.png",
+      "id": "6",
+      "src": "/DOMORA/images/Featured/Featured6.png",
       "alt": "Featured6",
       "title": "Mediterranean Dream Villa",
       "type": "Villa",
@@ -104,7 +110,8 @@
       "description": "An elegant Mediterranean villa with a private swimming pool, beautiful garden and spacious interiors."
     },
     {
-      "src": "./src/assets/Featured/Featured7.png",
+      "id": "7",
+      "src": "/DOMORA/images/Featured/Featured7.png",
       "alt": "Featured7",
       "title": "Lakeview Signature Villa",
       "type": "Villa",
@@ -114,7 +121,8 @@
       "description": "A stunning luxury villa with contemporary architecture, a private pool."
     },
     {
-      "src": "./src/assets/Featured/Featured8.png",
+      "id": "8",
+      "src": "/DOMORA/images/Featured/Featured8.png",
       "alt": "Featured8",
       "title": "Green Valley Plot",
       "type": "Residential Land",
@@ -124,7 +132,8 @@
       "description": "A spacious residential plot surrounded by nature, ideal for building a private family home."
     },
     {
-      "src": "./src/assets/Featured/Featured9.png",
+      "id": "9",
+      "src": "/DOMORA/images/Featured/Featured9.png",
       "alt": "Featured9",
       "title": "Premium Residential Plot",
       "type": "Residential Land",
@@ -134,7 +143,8 @@
       "description": "A premium residential plot in a desirable neighborhood with excellent potential for development."
     },
     {
-      "src": "./src/assets/Featured/Featured10.png",
+      "id": "10",
+      "src": "/DOMORA/images/Featured/Featured10.png",
       "alt": "Featured10",
       "title": "Prime Business Center",
       "type": "Commercial Property",
