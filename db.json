@@ -45,7 +45,7 @@
   "Featured": [
     {
       "id": "1",
-      "src": "/DOMORA/images/Featured/Featured1.png",
+      "src": "/DOMORA/Image/Featured/Featured1.png",
       "alt": "Featured1",
       "title": "Modern Family House",
       "type": "Detached House",
@@ -56,7 +56,7 @@
     },
     {
       "id": "2",
-      "src": "/DOMORA/images/Featured/Featured2.png",
+      "src": "/DOMORA/Image/Featured/Featured2.png",
       "alt": "Featured2",
       "title": "Classic Garden House",
       "type": "Detached House",
@@ -67,7 +67,7 @@
     },
     {
       "id": "3",
-      "src": "/DOMORA/images/Featured/Featured3.png",
+      "src": "/DOMORA/Image/Featured/Featured3.png",
       "alt": "Featured3",
       "title": "Contemporary Residence",
       "type": "Detached House",
@@ -78,7 +78,7 @@
     },
     {
       "id": "4",
-      "src": "/DOMORA/images/Featured/Featured4.png",
+      "src": "/DOMORA/Image/Featured/Featured4.png",
       "alt": "Featured4",
       "title": "Skyline Luxury Penthouse",
       "type": "Penthouse",
@@ -89,7 +89,7 @@
     },
     {
       "id": "5",
-      "src": "./src/assets/Featured/Featured5.png",
+      "src": "/DOMORA/Image/Featured/Featured5.png",
       "alt": "Featured5",
       "title": "Urban Heights Penthouse",
       "type": "Penthouse",
@@ -100,7 +100,7 @@
     },
     {
       "id": "6",
-      "src": "/DOMORA/images/Featured/Featured6.png",
+      "src": "/DOMORA/Image/Featured/Featured6.png",
       "alt": "Featured6",
       "title": "Mediterranean Dream Villa",
       "type": "Villa",
@@ -111,7 +111,7 @@
     },
     {
       "id": "7",
-      "src": "/DOMORA/images/Featured/Featured7.png",
+      "src": "/DOMORA/Image/Featured/Featured7.png",
       "alt": "Featured7",
       "title": "Lakeview Signature Villa",
       "type": "Villa",
@@ -122,7 +122,7 @@
     },
     {
       "id": "8",
-      "src": "/DOMORA/images/Featured/Featured8.png",
+      "src": "/DOMORA/Image/Featured/Featured8.png",
       "alt": "Featured8",
       "title": "Green Valley Plot",
       "type": "Residential Land",
@@ -133,7 +133,7 @@
     },
     {
       "id": "9",
-      "src": "/DOMORA/images/Featured/Featured9.png",
+      "src": "/DOMORA/Image/Featured/Featured9.png",
       "alt": "Featured9",
       "title": "Premium Residential Plot",
       "type": "Residential Land",
@@ -144,7 +144,7 @@
     },
     {
       "id": "10",
-      "src": "/DOMORA/images/Featured/Featured10.png",
+      "src": "/DOMORA/Image/Featured/Featured10.png",
       "alt": "Featured10",
       "title": "Prime Business Center",
       "type": "Commercial Property",
