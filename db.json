@@ -50,7 +50,7 @@
       "title": "Modern Family House",
       "type": "Detached House",
       "price": "$485,000",
-      "location": "Brooklyn, New York",
+      "location": "Brooklyn",
       "area": "240 m²",
       "description": "A beautiful modern family home with elegant architecture, spacious interiors and a landscaped garden."
     },
@@ -61,7 +61,7 @@
       "title": "Classic Garden House",
       "type": "Detached House",
       "price": "$620,000",
-      "location": "Queens, New York",
+      "location": "Queens",
       "area": "310 m²",
       "description": "A charming independent house featuring classic architecture, a beautiful garden."
     },
@@ -72,7 +72,7 @@
       "title": "Contemporary Residence",
       "type": "Detached House",
       "price": "$395,000",
-      "location": "Staten Island, New York",
+      "location": "Staten Island",
       "area": "190 m²",
       "description": "A stylish contemporary home with modern finishes, large windows and a peaceful outdoor space."
     },
@@ -80,10 +80,10 @@
       "id": "4",
       "src": "/DOMORA/Image/Featured/Featured4.png",
       "alt": "Featured4",
-      "title": "Skyline Luxury Penthouse",
+      "title": "Skyline Penthouse",
       "type": "Penthouse",
       "price": "$1,250,000",
-      "location": "Manhattan, New York",
+      "location": "Manhattan",
       "area": "280 m²",
       "description": "An exclusive penthouse offering panoramic city views, floor-to-ceiling window."
     },
@@ -91,10 +91,10 @@
       "id": "5",
       "src": "/DOMORA/Image/Featured/Featured5.png",
       "alt": "Featured5",
-      "title": "Urban Heights Penthouse",
+      "title": "Urban Penthouse",
       "type": "Penthouse",
       "price": "$980,000",
-      "location": "Long Island City, New York",
+      "location": "Long Island",
       "area": "220 m²",
       "description": "A sophisticated penthouse featuring a private terrace, contemporary design and stunning skyline views."
     },
@@ -102,12 +102,12 @@
       "id": "6",
       "src": "/DOMORA/Image/Featured/Featured6.png",
       "alt": "Featured6",
-      "title": "Mediterranean Dream Villa",
+      "title": "Mediterranean Villa",
       "type": "Villa",
       "price": "$1,850,000",
-      "location": "The Hamptons, New York",
+      "location": "The Hamptons",
       "area": "450 m²",
-      "description": "An elegant Mediterranean villa with a private swimming pool, beautiful garden and spacious interiors."
+      "description": "An elegant Mediterranean villa with a private swimming pool, beautiful garden."
     },
     {
       "id": "7",
@@ -116,7 +116,7 @@
       "title": "Lakeview Signature Villa",
       "type": "Villa",
       "price": "$2,400,000",
-      "location": "Montauk, New York",
+      "location": "Montauk",
       "area": "520 m²",
       "description": "A stunning luxury villa with contemporary architecture, a private pool."
     },
@@ -127,7 +127,7 @@
       "title": "Green Valley Plot",
       "type": "Residential Land",
       "price": "$185,000",
-      "location": "Hudson Valley, New York",
+      "location": "Hudson Valley",
       "area": "1,200 m²",
       "description": "A spacious residential plot surrounded by nature, ideal for building a private family home."
     },
@@ -138,9 +138,9 @@
       "title": "Premium Residential Plot",
       "type": "Residential Land",
       "price": "$260,000",
-      "location": "Westchester, New York",
+      "location": "Westchester",
       "area": "1,800 m²",
-      "description": "A premium residential plot in a desirable neighborhood with excellent potential for development."
+      "description": "A premium residential plot in a desirable neighborhood with excellent potential."
     },
     {
       "id": "10",
@@ -149,7 +149,7 @@
       "title": "Prime Business Center",
       "type": "Commercial Property",
       "price": "$1,600,000",
-      "location": " Manhattan, New York",
+      "location": " Manhattan",
       "area": "600 m²",
       "description": "A modern commercial building with spacious interiors, suitable for offices, retail and business."
     }
